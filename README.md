@@ -1,4 +1,5 @@
-# CODSOFT-1
+# CODSOFT Projects
+#(Task 1 ) : -
 🌸 Iris Flower Classification – Project Report
 
 📌 Project Title:
@@ -101,5 +102,74 @@ Add a graphical interface using Streamlit for real-time predictions.
 Perform feature importance analysis to understand which traits are most decisive.
 
 Deploy the model on a cloud platform or as a web app.
+
+#(Task 2)
+Project Overview
+
+The dataset used is the classic Titanic Dataset, which includes information about passengers such as age, sex, ticket class, and embarkation port. The goal is to build a predictive model that determines whether a passenger survived the disaster.
+🔍 Steps Performed
+
+1. Data Cleaning
+
+Removed unnecessary columns: PassengerId, Name, Ticket, Cabin
+
+Handled missing values in Age (median) and Embarked (mode)
+
+
+
+2. Data Preprocessing
+
+Applied Label Encoding to convert categorical variables: Sex and Embarked
+
+
+
+3. Model Training
+
+Split the data into training and testing sets (80/20)
+
+Trained a RandomForestClassifier with 100 trees
+
+
+
+4. Model Evaluation
+
+Achieved 82.12% accuracy on the test set
+
+Classification report shows:
+
+Precision: 0.83 (class 0), 0.81 (class 1)
+
+Recall: 0.88 (class 0), 0.74 (class 1)
+
+F1-Score: 0.85 (class 0), 0.77 (class 1)
+
+
+📈 Performance Summary
+
+Metric	Value
+
+Accuracy	82.12%
+Macro Avg F1	0.81
+Weighted Avg F1	0.82
+
+
+🛠 Tech Stack
+
+Python
+
+Pandas
+
+Scikit-learn
+
+📁 Files Included
+
+Titanic-Dataset.csv – Dataset used
+
+titanic_model.py or .ipynb – Model training and evaluation code
+
+
+✅ Conclusion
+
+The Random Forest model provided a reliable prediction with over 82% accuracy. This project demonstrates fundamental steps in a classification task: preprocessing, training, and evaluation.
 
 
