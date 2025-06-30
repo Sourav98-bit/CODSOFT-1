@@ -167,6 +167,55 @@ Titanic-Dataset.csv – Dataset used
 
 titanic_model.py or .ipynb – Model training and evaluation code
 
+#(Task 3)
+Sales Prediction Using Linear Regression
+
+1. Objective
+
+The primary objective of this project was to develop a linear regression model to predict product sales based on advertising expenditure across three media channels: TV, Radio, and Newspaper.
+
+2. Methodology
+
+Dataset: Utilized a dataset containing advertising budgets (TV, Radio, Newspaper) and corresponding Sales figures.
+
+Preprocessing: Checked for null values and data types; found the dataset clean and ready for modeling.
+
+Modeling: Implemented a LinearRegression model using scikit-learn. The dataset was split into training (80%) and testing (20%) sets.
+
+Evaluation Metrics:
+
+Mean Squared Error (MSE): 2.91
+
+Root Mean Squared Error (RMSE): 1.71
+
+R² Score: 0.91
+
+
+3. Results & Interpretation
+
+The model achieved an R² score of 0.91, indicating that it explains 91% of the variance in sales.
+
+Coefficients of the model:
+
+TV: 0.0545
+
+Radio: 0.1009
+
+Newspaper: 0.0043
+
+
+
+These coefficients suggest that investments in Radio and TV significantly impact sales, while Newspaper has a minimal effect.
+
+Visualization: A scatter plot of actual vs. predicted sales demonstrated that the model performs well, with points closely aligned along the ideal prediction line.
+
+
+4. Conclusion
+
+The linear regression model provides a strong predictive capability for estimating sales based on advertising budgets. The insights gained can help in optimizing marketing strategy by reallocating budgets toward more effective channels like TV and Radio.
+
+
+
 
 ✅ Conclusion
 
